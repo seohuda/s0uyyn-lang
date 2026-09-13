@@ -1,0 +1,17 @@
+!울산말
+리스트 (블루베리스무디레시피) 예제
+울산말!
+
+블루베리스무디레시피 nums = [1, 2, 3];
+
+nums.push(4);
+nums.push(5);
+오쫄티비("크기:", nums.size());
+
+e의2승 popped = nums.pop();
+오쫄티비("pop된 원소:", popped);
+오쫄티비("pop 후 크기:", nums.size());
+
+nums.insert(1, 999);
+오쫄티비("nums[1]:", nums[1]);
+오쫄티비("999 포함 여부:", nums.contains(999));
