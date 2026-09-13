@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "seoyun"
+version = "0.1.0"
+description = "서윤랭 (SeoyunLang) 인터프리터"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    { name = "seohuda" }
+]
+
+[project.scripts]
+seoyun = "main:main"
+
+[tool.setuptools]
+packages = [
+    "src",
+    "src.errors",
+    "src.lexer",
+    "src.ast",
+    "src.parser",
+    "src.runtime",
+    "src.interpreter",
+    "src.stdlib"
+]
+py-modules = ["main"]

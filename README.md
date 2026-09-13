@@ -17,7 +17,25 @@ hanoi.syl
 
 - Python 3.10 이상 (추가 외부 의존성 없음)
 
-저장소를 클론하여 바로 사용할 수 있습니다.
+### pip을 통한 설치
+
+```bash
+# 로컬 소스 디렉터리에서 설치
+pip install .
+
+# 또는 GitHub 저장소에서 바로 설치
+pip install git+https://github.com/seohuda/s0uyyn-lang.git
+```
+
+설치 후 시스템 어디서나 `seoyun` 명령어를 바로 사용할 수 있습니다:
+
+```bash
+seoyun run <file.syl>
+```
+
+### 소스 클론 방식
+
+저장소를 클론하여 바로 실행할 수도 있습니다.
 
 ```bash
 git clone https://github.com/seohuda/s0uyyn-lang.git
